@@ -1,0 +1,39 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Build / Artifacts ---
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# --- Playwright artifacts ---
+playwright-report/
+blob-report/
+test-results/
+*.zip
+*.har
+*.trace
+
+# --- Auth / local state (optional to track) ---
+storageState/
+!storageState/.gitkeep
+
+# --- Env files ---
+.env
+.env.*
+!.env.example
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Editors ---
+.vscode/
+.idea/
+*.swp
